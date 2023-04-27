@@ -15,7 +15,7 @@ function updateCount(el) {
     if (initialValue > value) {
       el.textContent = value; // just in case
       clearInterval(increaseCount); // stops the counter, for performance mostly, functionality still be the same
-      return; // not needed but good practice
+      return; // stops the code
     }
   }, 1); // runs  each milisecond
 }
