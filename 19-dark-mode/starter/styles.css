@@ -11,6 +11,14 @@ Global Styles
   --clr-grey: #64748b;
 }
 
+/* basically invert background / font colors and make the other ones lighter */
+.dark-theme {
+  --clr-bcg: #282c35;
+  --clr-font: #fff;
+  --clr-primary: #ffa7c4;
+  --clr-grey: #cbd5e1;
+}
+
 *,
 ::after,
 ::before {
