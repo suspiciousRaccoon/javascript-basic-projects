@@ -55,6 +55,19 @@ function displayButtons() {
     .join('');
 }
 
+companyBtns.addEventListener('click', (e) => {
+  if (e.target.classList.contains('company-btn')) {
+    if (e.target.textContent == 'all') {
+      displayProducts(products);
+    } else {
+      const filteredProducts = products.filter((product) => {
+        return product.company == e.target.textContent;
+      });
+      displayProducts(filteredProducts);
+    }
+  }
+});
+
 window.addEventListener('load', () => {
   displayProducts(products);
   displayButtons();
