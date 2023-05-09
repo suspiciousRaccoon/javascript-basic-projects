@@ -7,6 +7,7 @@
 :root {
   /* primary/main color */
   --primary-500: hsl(286, 62%, 45%);
+  --primary-700: hsla(286, 62%, 45%, 0.575);
 
   /* grey */
   --gray: #828294;
