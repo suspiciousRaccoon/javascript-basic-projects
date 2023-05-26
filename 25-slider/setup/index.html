@@ -7,14 +7,42 @@
     <!-- font-awesome -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
 
     <!-- stylesheet -->
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h2>slider project</h2>
+    <section class="slider">
+      <div class="reviews">
+        <h2><span>/</span> reviews</h2>
+      </div>
+      <div class="slide-container">
+        <article class="slide">
+          <img
+            src="https://www.course-api.com/images/people/person-2.jpeg"
+            alt="peter doe"
+            class="img" />
+          <h4>peter doe</h4>
+          <p class="title">product designer</p>
+          <p class="text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
+            quisquam dolorum voluptates, nulla libero nemo non sapiente eum
+            aliquid minima.
+          </p>
+          <div class="quote-icon">
+            <div class="fas fa-quote-right"></div>
+          </div>
+        </article>
+      </div>
+      <!-- prev next btn -->
+      <btn class="btn prev-btn">
+        <i class="fas fa-chevron-left"></i>
+      </btn>
+      <btn class="btn next-btn">
+        <i class="fas fa-chevron-right"></i>
+      </btn>
+    </section>
     <script type="module" src="app.js"></script>
   </body>
 </html>
