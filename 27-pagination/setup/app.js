@@ -19,7 +19,6 @@ const init = async () => {
   // displayFollowers(paginate(followers));
   title.textContent = 'pagination';
   pages = paginate(followers);
-  console.log(pages);
   setupUI();
 };
 
